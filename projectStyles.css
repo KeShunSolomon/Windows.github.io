@@ -1,0 +1,133 @@
+body{
+  background-color: lightgray;
+}
+
+h1{
+  text-align: center;
+  font-family: Lucida Console, Courier New, monospace;
+  font-size: 30px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid #f4511e;
+  padding: 50px;
+  margin: 20px;
+  margin: auto;
+}
+
+div.container{
+  text-align: center;
+  font-size: 20px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid #f4511e;
+  padding: 50px;
+  margin: 20px;
+  margin: auto;
+  position: absolute;
+  bottom: 400px;
+  right: 740px;
+}
+ol.groupProjects{
+  display: inline-block;
+  text-align: left;
+}
+
+ol.personalProjects{
+  display: inline-block;
+  text-align: left;
+}
+
+
+h2{
+  font-family: Lucida Console, Courier New, monospace;
+  font-size: 20px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid #f4511e;
+  padding: 50px;
+  margin: 20px;
+  margin: auto;
+  position: absolute;
+  bottom: 400px;
+  left: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.second{
+  font-family: Lucida Console, Courier New, monospace;
+  font-size: 20px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid #f4511e;
+  padding: 50px;
+  margin: 20px;
+  margin: auto;
+  position: absolute;
+  bottom: 370px;
+  right: -850px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 .topLeft{
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  background-color: #f4511e;
+  border: none;
+  color: lightgray;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-style: ridge;
+  border-width: 15px;
+}
+
+.button2 .topLeft:hover {opacity: 1}
